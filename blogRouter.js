@@ -8,7 +8,7 @@ const {BlogPosts} = require('./models');
 
 BlogPosts.create('My Introduction', 'Hi my name is Bobby', 'Aaron L.', '9/1/18');
 
-router.get('/', (requestAnimationFrame, res) => {
+router.get('/', (req, res) => {
   res.json(BlogPosts.get());
 });
 
