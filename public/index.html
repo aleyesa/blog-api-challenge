@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Blog Post</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <header role="banner">
+    <h1>Blog Post</h1>
+  </header>
+  <main role="main">
+    <form role="form">
+      <label for="title">Title:</label>
+      <input type="text" name="title" id="title"/>
+      <label for="content">Content:</label>
+      <input type="text" name="content" id="content"/>
+      <label for="author">Author:</label>
+      <input type="text" name="author" id="author"/>
+      <label for="date">Date:</label>
+      <input type="text" name="date" id="date"/>
+      <input type="submit" value="Post"/>
+    </form>
+
+    <section role="region" class="blogPostsSection"></section>
+  </main>
+
+  </main>
+  <script src="//code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+  <script src="client.js"></script>
+</body>
+</html>
